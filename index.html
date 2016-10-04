@@ -1,0 +1,127 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+  <meta name="author" content="Laura Tran" />
+  <style><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"></style>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</head>
+
+<body onpageshow="openNav()">   
+   <div id="myNav" class="overlay">  
+    <div class="overlay-content">   
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Hi, I'm Laura. Nice to meet you.</a> 
+    </div>    
+  </div>  
+  <div class="topNav">
+    <a href="https://www.linkedin.com/in/laura-tran-992578124">
+      <img src="./assets/img/linkedin-image.png" width="75" height="75" border="0">
+    </a>
+    <a href="https://github.com/lauratrann">
+      <img src="./assets/img/github-image.png" width="75" height="75" border="0">
+    </a>
+    <a href="https://www.facebook.com/lauraa.tran">
+      <img src="./assets/img/fb-image.png" width="75" height="75" border="0">
+    </a>
+    <!--End of top navigation-->
+  </div>
+  <div id="nav-anchor"></div>
+<nav>
+    <ul>
+      <li>
+        <img src="./assets/img/profile-image.png" width=300 height="300" border="0">
+      </li>
+      <li><a href="#aboutme">about me</a></li> 
+      <li><a href="#research">research</a></li>
+      <li><a href="#projects">projects</a></li> 
+    </ul>
+    </nav>
+    <!--End of Left Navigation-->
+  
+  <div class=main> 
+    <div id="page1">
+      <a id="aboutme" class="smooth"></a>
+      <h1> 
+         [about me]
+      </h1>
+      <p>
+      Hello again! I'm Laura, a Sophomore and Mathematics-Computer Science major at the University of Califonia, San Diego.</p>
+      <p>During the school year I do research at the Gilson Lab of Computational Chemistry, where I lead my own projects and help to write code in the name of science!</p>
+      <p>I'm currently looking to explore different means of applying my technical and leadership skills. I'm looking for an internship where
+        <li>I can help build things</li>
+        <li>I can look at numbers and do research</li>
+        <li>I can be artsy fartsy and creative</li>
+      </p>
+
+      <p>In my free time I enjoy running, pushing the limits of my stomach, and watching anime for hours on end.
+      </p>
+      
+    </div>
+<!--end of about me page-->
+    <div id="page2">
+      <a id="research" class="smooth"></a>
+      <h1>
+         [research]
+      </h1>
+      <div class="title">
+
+        <img src="./assets/img/bcoc1-image.png" width="300" height="150" border="0">
+                <img src="./assets/img/bcoc2-image.png" width="300" height="150" border="0">
+
+
+        <img src="./assets/img/bcoc3-image.png" width="300" height="150" border="0">
+
+      </div>
+      <!--end of title for research page-->
+      <div class="page-content">
+        During my freshman year of college, I decided to join a research lab. I spent hours looking over the different labs UC San Diego had to offer, curious as to what field I wanted to go into. All I knew was that I liked science, I like programming, and I
+        liked learning.
+
+      </div>
+      <div class="page-content">
+        And that’s how I ended up in the Gilson Lab of Computational Chemistry. </div>
+
+      <div class="page-content">This is what I do.</div>
+
+      <div class="page-content">I run experiments. </div>
+      
+      <div class="page-content">
+        The goal of our lab is to improve the way we use technology in drug discovery. In order to have something to test our programs against, we need something that’s true to facts. I help to synthesize novel host-guest bindings, and run ITC experiments to
+        gather data that can be used to compare the same experiment but ran artificially on our computers. 
+      </div>
+      <div class="page-content">
+        That was a lot of scientific jargon. In laymen’s terms: I put molecules together. These molecules aren’t always bounded by nature, but I want to see how they’ll behave and if they behave well together. Then I run these molecules in solution in a box that
+        measures how much heat they release. I can use the data I gather from this to compare to the accuracy of computer simulations. The pictures at the top of this page are screenshots of a molecule I worked with-a betacyclodextrin host with a cyclooctanol
+        guest. </div>
+      <div class="page-content">
+        I write code. </div>
+      <div class="page-content">
+        As a computational chemistry lab, we have to code as well! One of my current projects is reweighting the OPC water molecule. So I worked on writing code with my mentor that would take in the data from a simulation of the water molecule, and run
+        algorithms against it in order to calculate a single water molecules’ density, energy, and in the future: the enthalpy of mixing. Other projects we’ve worked on focused on calculating a species’ entropy in simulation and adjusting force field
+        parameters while a simulation is in progress. </div>
+      <div class="page-content">
+        I learn.</div>
+      <div class="page-content">
+        This lab has been an amazing learning experience for me. It was an intimidating experience at first, but I’m glad to have joined and been able to see how what I was learning in school was applicable to life. Knowing that what I do can and will influence
+        others drives me to keep exploring other applications of programming.</div>
+    </div>
+<!--end of research page-->
+    <div id="page3">
+      <a id="projects" class="smooth"></a> 
+      <h1>
+         [projects]
+      </h1>
+       <div class="page-content">
+     Coming Soon! I'm currently in the process of writing up about my projects and the steps I take in order to deisgn and implement them. Until then, feel free to browse my GitHub to your heart's content!</div>
+    </div>
+  </div>
+<!--end of projects page-->
+</body>
+
+</html>
+
+
