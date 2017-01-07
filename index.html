@@ -1,45 +1,45 @@
-<!DOCTYPE>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
 
 <head>
 
   <meta name="author" content="Laura Tran" />
   <style><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"></style>
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script type="text/javascript" src="./js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <script type = "text/javascript" src = "./js/script.js"> </script>
 </head>
 
 <body onpageshow="openNav()">   
    <div id="myNav" class="overlay">  
     <div class="overlay-content">   
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Hi, I'm Laura. Nice to meet you.</a> 
+      <a href="javascript:void(0)"   class="closebtn" onclick="closeNav()">Hi, I'm Laura. Nice to meet you.</a> 
     </div>    
   </div>  
   <div class="topNav">
-    <a href="https://www.linkedin.com/in/laura-tran-992578124">
-      <img src="./assets/img/linkedin-image.png" width="75" height="75" border="0">
+    <a href="www.linkedin.com/in/laura-trann">
+      <img src="./assets/img/linkedin-img" width="50" height="50" border="0">
     </a>
-    <a href="https://github.com/lauratrann">
-      <img src="./assets/img/github-image.png" width="75" height="75" border="0">
+    <a href="https://www.instagram.com/tranlauraa/">
+      <img src="./assets/img/instagram-img" width="50" height="50" border="0">
     </a>
     <a href="https://www.facebook.com/lauraa.tran">
-      <img src="./assets/img/fb-image.png" width="75" height="75" border="0">
+      <img src="./assets/img/facebook-img" width="50" height="50" border="0">
     </a>
     <!--End of top navigation-->
   </div>
-  <div id="nav-anchor"></div>
+  <div id="page-wrap">
+  <div id="sidebar">
 <nav>
     <ul>
       <li>
-        <img src="./assets/img/profile-image.png" width=300 height="300" border="0">
+        <img src="./assets/img/nav-image" width="250" height="250" border="0">
       </li>
       <li><a href="#aboutme">about me</a></li> 
-      <li><a href="#research">research</a></li>
-      <li><a href="#projects">projects</a></li> 
+      <li><a href="#work">experience</a></li>
+      <li><a href="#projects"> projects</a></li> 
     </ul>
     </nav>
+    </div>
+  </div>
     <!--End of Left Navigation-->
   
   <div class=main> 
@@ -49,70 +49,77 @@
          [about me]
       </h1>
       <p>
-      Hello again! I'm Laura, a Sophomore and Mathematics-Computer Science major at the University of Califonia, San Diego.</p>
-      <p>During the school year I do research at the Gilson Lab of Computational Chemistry, where I lead my own projects and help to write code in the name of science!</p>
-      <p>I'm currently looking to explore different means of applying my technical and leadership skills. I'm looking for an internship where
+      Hi, I'm Laura - an undergraduate at the University of California, San Diego. In my spare time, I like to indulge in Stephen King Novels and back to back episodes of The Office. </p>
+      <p>To be honest, I'm not too sure where I'm going with my future. But I do know two things. I like to create and I like to learn. I'm currently a member of a computation chemistry research lab where I can do these two things through modeling drug design and behavior.  </p>
+      <p>But I still want to do more. I'm currently looking for internships where I can develop my skills and continue to learn. So if you have an internship where...
         <li>I can help build things</li>
         <li>I can look at numbers and do research</li>
         <li>I can be artsy fartsy and creative</li>
       </p>
 
-      <p>In my free time I enjoy running, pushing the limits of my stomach, and watching anime for hours on end.
+      <p> Then feel more than welcome to contact me at lauramichelletran@gmail.com. Or contact me or fun anyways! I always love talking about new tech and books on the market.
       </p>
       
     </div>
-<!--end of about me page-->
+<!---end of about me page-->
     <div id="page2">
-      <a id="research" class="smooth"></a>
+      <a id="work" class="smooth"></a>
       <h1>
-         [research]
+         [work experience]
       </h1>
-    
-      <div class="page-content">
-        During my freshman year of college, I decided to join a research lab. I spent hours looking over the different labs UC San Diego had to offer, curious as to what field I wanted to go into. All I knew was that I liked science, I like programming, and I
-        liked learning.
-
+        <div class = "work-container">
+            <div class = "work-content">
+                <h2>Department of Biological Sciences, UC San Diego</h2>
+                <h3>Incoming undergrduate IA for WINTER 2016</h3>
+            </div>
+        </div>
+            <div class = "work-container">
+            <div class = "work-content">
+                <h2>Gilson Lab of Computational Chemistry, UC San Diego, Skaggs School of Pharmacy</h2>
+                <h3>Undergraduate Researcher FEB 2016 - PRESENT</h3>
+            </div> 
+        </div>
+        
+         <div class = "work-container">
+            <div class = "work-content">
+                <h2>AS Lecture Notes, UC San Diego</h2>
+                <h3>Chemistry 6B Note Taker JAN 2016 - MAR 2016</h3>
+            </div> 
+        </div>
+        
+        <div class = "work-container">
+            <div class = "work-content">
+                <h2>Aim High, San Francisco</h2>
+                <h3>Teaching Intern, JUN 2014 - JUL 2016</h3>
+            </div> 
+        </div>
+        
+ 
       </div>
-      <div class="page-content">
-        And that’s how I ended up in the Gilson Lab of Computational Chemistry. </div>
-
-      <div class="page-content">This is what I do.</div>
-
-      <div class="page-content">I run experiments. </div>
-      
-      <div class="page-content">
-        The goal of our lab is to improve the way we use technology in drug discovery. In order to have something to test our programs against, we need something that’s true to facts. I help to synthesize novel host-guest bindings, and run ITC experiments to
-        gather data that can be used to compare the same experiment but ran artificially on our computers. 
-      </div>
-      <div class="page-content">
-        That was a lot of scientific jargon. In laymen’s terms: I put molecules together. These molecules aren’t always bounded by nature, but I want to see how they’ll behave and if they behave well together. Then I run these molecules in solution in a box that
-        measures how much heat they release. I can use the data I gather from this to compare to the accuracy of computer simulations. The pictures at the top of this page are screenshots of a molecule I worked with-a betacyclodextrin host with a cyclooctanol
-        guest. </div>
-      <div class="page-content">
-        I write code. </div>
-      <div class="page-content">
-        As a computational chemistry lab, we have to code as well! One of my current projects is reweighting the OPC water molecule. So I worked on writing code with my mentor that would take in the data from a simulation of the water molecule, and run
-        algorithms against it in order to calculate a single water molecules’ density, energy, and in the future: the enthalpy of mixing. Other projects we’ve worked on focused on calculating a species’ entropy in simulation and adjusting force field
-        parameters while a simulation is in progress. </div>
-      <div class="page-content">
-        I learn.</div>
-      <div class="page-content">
-        This lab has been an amazing learning experience for me. It was an intimidating experience at first, but I’m glad to have joined and been able to see how what I was learning in school was applicable to life. Knowing that what I do can and will influence
-        others drives me to keep exploring other applications of programming.</div>
-    </div>
-<!--end of research page-->
+<!--end of research page --> 
     <div id="page3">
       <a id="projects" class="smooth"></a> 
       <h1>
          [projects]
       </h1>
        <div class="page-content">
-     Coming Soon! I'm currently in the process of writing up about my projects and the steps I take in order to deisgn and implement them. Until then, feel free to browse my GitHub to your heart's content!</div>
+    In my spare time, I enjoy photography, design, and coding silly things. <br>
+        Check out
+        </div>
+        <div class="page-content">
+        <li style="list-style-type: none;"><a href="http://imgur.com/a/QvTPX">
+      <img src="./assets/img/camera-img" width="50" height="50" border="0">
+   photography </a>
+           </li>
+        <li style="list-style-type: none;"> <a href="http://imgur.com/a/AHrlw">
+            <img src="./assets/img/laptop-img" width="50" height="50" border="0">designs</a>
+           </li>
+        <li style="list-style-type: none;"><a href="https://github.com/lauratrann">
+            <img src="./assets/img/github-img" width="50" height="50" border="0">github</a>
+           </li></div>
     </div>
   </div>
 <!--end of projects page-->
 </body>
-
+ 
 </html>
-
-
